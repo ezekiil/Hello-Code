@@ -1,7 +1,7 @@
-﻿int Max(int arg1, int arg2, int arg3)
+﻿int Max(int arg1, int arg2, int arg3) // метод принимает два параметра и возвращает максимальное число
 {
     int result = arg1;
-    if (arg2 > result) result = arg2;
+    if (arg2 > result) result = arg2; // если второй параметр больше результата
     if (arg3 > result) result = arg3;
     return result;
 }
